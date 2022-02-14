@@ -7,19 +7,12 @@ from player import Player
 server = "192.168.1.229"
 port = 5555
 
-width = 500
-height = 500
-
 PLAYER_WIDTH = 50
 PLAYER_HEIGHT = 50
-
-centerX = width / 2 - PLAYER_WIDTH / 2
-centerY = height / 2 - PLAYER_HEIGHT / 2
 
 RED = (255,0,0)
 GREEN = (0, 255,0)
 BLUE = (0, 0, 255)
-WHITE = (255, 255, 255)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

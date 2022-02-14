@@ -2,7 +2,11 @@ import pygame
 from network import Network
 from helper import getActionsCounter
 from player import Player
-from server import width, height, WHITE
+
+width = 500
+height = 500
+
+WHITE = (255, 255, 255)
 
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Client")
