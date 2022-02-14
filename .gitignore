@@ -2,3 +2,6 @@ __pycache__/helper.cpython-39.pyc
 __pycache__/network.cpython-39.pyc
 __pycache__/precize_time.cpython-39.pyc
 shared.pkl
+__pycache__/client.cpython-39.pyc
+__pycache__/player.cpython-39.pyc
+__pycache__/server.cpython-39.pyc
